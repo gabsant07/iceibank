@@ -1,0 +1,106 @@
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::staticFieldBase has been called by com.google.inject.internal.aop.HiddenClassDefiner (file:/C:/trabalho/ICEIBank/ICEIBank-Completo/iceibank/.mvn/apache-maven-3.9.11/lib/guice-5.1.0-classes.jar)
+WARNING: Please consider reporting this to the maintainers of class com.google.inject.internal.aop.HiddenClassDefiner
+WARNING: sun.misc.Unsafe::staticFieldBase will be removed in a future release
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------------------< aula:iceibank >----------------------------
+[INFO] Building ICEIBank 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ iceibank ---
+[INFO] Copying 1 resource from src\main\resources to target\classes
+[INFO] Copying 4 resources from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.14.1:compile (default-compile) @ iceibank ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ iceibank ---
+[INFO] Copying 1 resource from src\test\resources to target\test-classes
+[INFO] 
+[INFO] --- compiler:3.14.1:testCompile (default-testCompile) @ iceibank ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] --- surefire:3.5.4:test (default-test) @ iceibank ---
+[INFO] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running aula.iceibank.controller.AccountControllerTest
+18:55:43.737 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [aula.iceibank.controller.AccountControllerTest]: AccountControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+18:55:43.830 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration aula.iceibank.IceiBankApplication for test class aula.iceibank.controller.AccountControllerTest
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.5.7)
+
+2026-09-07T18:55:44.085-03:00  INFO 4948 --- [           main] a.i.controller.AccountControllerTest     : Starting AccountControllerTest using Java 25.0.1 with PID 4948 (started by KABUM in C:\trabalho\ICEIBank\ICEIBank-Completo\iceibank)
+2026-09-07T18:55:44.086-03:00  INFO 4948 --- [           main] a.i.controller.AccountControllerTest     : No active profile set, falling back to 1 default profile: "default"
+2026-09-07T18:55:44.486-03:00  INFO 4948 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-09-07T18:55:44.531-03:00  INFO 4948 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 38 ms. Found 5 JPA repository interfaces.
+2026-09-07T18:55:44.890-03:00  INFO 4948 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-09-07T18:55:44.937-03:00  INFO 4948 --- [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.33.Final
+2026-09-07T18:55:44.959-03:00  INFO 4948 --- [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-09-07T18:55:45.210-03:00  INFO 4948 --- [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-09-07T18:55:45.236-03:00  INFO 4948 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-09-07T18:55:45.355-03:00  INFO 4948 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:iceibank-test user=SA
+2026-09-07T18:55:45.356-03:00  INFO 4948 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-09-07T18:55:45.393-03:00  INFO 4948 --- [           main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-09-07T18:55:45.907-03:00  INFO 4948 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-09-07T18:55:45.938-03:00  INFO 4948 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-09-07T18:55:46.332-03:00  INFO 4948 --- [           main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name databaseUserDetailsService
+2026-09-07T18:55:46.516-03:00  WARN 4948 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-09-07T18:55:46.588-03:00  INFO 4948 --- [           main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2026-09-07T18:55:46.896-03:00  INFO 4948 --- [           main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:iceibank-test'
+2026-09-07T18:55:46.977-03:00  INFO 4948 --- [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2026-09-07T18:55:46.979-03:00  INFO 4948 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2026-09-07T18:55:46.979-03:00  INFO 4948 --- [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2026-09-07T18:55:46.995-03:00  INFO 4948 --- [           main] a.i.controller.AccountControllerTest     : Started AccountControllerTest in 3.082 seconds (process running for 3.68)
+Mockito is currently self-attaching to enable the inline-mock-maker. This will no longer work in future releases of the JDK. Please add Mockito as an agent to your build as described in Mockito's documentation: https://javadoc.io/doc/org.mockito/mockito-core/latest/org.mockito/org/mockito/Mockito.html#0.3
+OpenJDK 64-Bit Server VM warning: Sharing is only supported for boot loader classes because bootstrap classpath has been appended
+WARNING: A Java agent has been loaded dynamically (C:\Users\KABUM\.m2\repository\net\bytebuddy\byte-buddy-agent\1.17.8\byte-buddy-agent-1.17.8.jar)
+WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
+WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
+WARNING: Dynamic loading of agents will be disallowed by default in a future release
+[INFO] Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.523 s -- in aula.iceibank.controller.AccountControllerTest
+[INFO] Running aula.iceibank.controller.AuthControllerTest
+2026-09-07T18:55:48.186-03:00  INFO 4948 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [aula.iceibank.controller.AuthControllerTest]: AuthControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-09-07T18:55:48.188-03:00  INFO 4948 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration aula.iceibank.IceiBankApplication for test class aula.iceibank.controller.AuthControllerTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.064 s -- in aula.iceibank.controller.AuthControllerTest
+[INFO] Running aula.iceibank.controller.InternalTransferSecurityTest
+2026-09-07T18:55:48.252-03:00  INFO 4948 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [aula.iceibank.controller.InternalTransferSecurityTest]: InternalTransferSecurityTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-09-07T18:55:48.253-03:00  INFO 4948 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration aula.iceibank.IceiBankApplication for test class aula.iceibank.controller.InternalTransferSecurityTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.026 s -- in aula.iceibank.controller.InternalTransferSecurityTest
+[INFO] Running aula.iceibank.controller.JwtSecurityTest
+2026-09-07T18:55:48.279-03:00  INFO 4948 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [aula.iceibank.controller.JwtSecurityTest]: JwtSecurityTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-09-07T18:55:48.281-03:00  INFO 4948 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration aula.iceibank.IceiBankApplication for test class aula.iceibank.controller.JwtSecurityTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.154 s -- in aula.iceibank.controller.JwtSecurityTest
+[INFO] Running aula.iceibank.service.AgencyRoutingServiceTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.041 s -- in aula.iceibank.service.AgencyRoutingServiceTest
+[INFO] Running aula.iceibank.service.LamportClockServiceTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 s -- in aula.iceibank.service.LamportClockServiceTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 10, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  6.763 s
+[INFO] Finished at: 2026-09-07T18:55:48-03:00
+[INFO] ------------------------------------------------------------------------

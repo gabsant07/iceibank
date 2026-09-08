@@ -1,0 +1,7 @@
+﻿ICEIBank - Sprint 1
+JWT without token returns 401
+Generated at: 2026-09-07T21:55:30Z
+
+{
+    "status":  401
+}

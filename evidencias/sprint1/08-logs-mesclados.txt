@@ -1,0 +1,33 @@
+﻿Lamport 1 | Agency 0 | ACCOUNT_CREATED | Account created, account=12
+Lamport 1 | Agency 1 | ACCOUNT_CREATED | Account created, account=1
+Lamport 2 | Agency 0 | ACCOUNT_CREATED | Account created, account=9
+Lamport 2 | Agency 1 | ACCOUNT_CREATED | Account created, account=4
+Lamport 3 | Agency 0 | LOCAL_TRANSFER | Local transfer from 12 to 9
+Lamport 3 | Agency 1 | ACCOUNT_CREATED | Account created, account=7
+Lamport 4 | Agency 1 | REMOTE_TRANSFER_SENT | Remote transfer sent to agency 0
+Lamport 5 | Agency 0 | REMOTE_TRANSFER_RECEIVED | Remote credit from agency 1 for account 12
+Lamport 6 | Agency 0 | DEPOSIT | Deposit completed, account=12
+Lamport 7 | Agency 0 | DEPOSIT | Deposit completed, account=12
+Lamport 8 | Agency 0 | DEPOSIT | Deposit completed, account=12
+Lamport 9 | Agency 0 | DEPOSIT | Deposit completed, account=12
+Lamport 10 | Agency 0 | DEPOSIT | Deposit completed, account=3
+Lamport 11 | Agency 0 | WITHDRAWAL | Withdrawal completed, account=3
+Lamport 12 | Agency 0 | LOCAL_TRANSFER | Local transfer from 3 to 6
+Lamport 13 | Agency 0 | REMOTE_TRANSFER_SENT | Remote transfer sent to agency 1
+Lamport 14 | Agency 0 | REMOTE_TRANSFER_FAILED | Inconsistency: debit committed and agency 2 unavailable
+Lamport 14 | Agency 1 | REMOTE_TRANSFER_RECEIVED | Remote credit from agency 0 for account 4
+Lamport 15 | Agency 0 | DEPOSIT | Deposit completed, account=3
+Lamport 15 | Agency 1 | BALANCE_CHECKED | Balance checked for account 4
+Lamport 16 | Agency 0 | WITHDRAWAL | Withdrawal completed, account=3
+Lamport 17 | Agency 0 | LOCAL_TRANSFER | Local transfer from 3 to 6
+Lamport 18 | Agency 0 | REMOTE_TRANSFER_SENT | Remote transfer sent to agency 1
+Lamport 19 | Agency 0 | REMOTE_TRANSFER_FAILED | Inconsistency: debit committed and agency 2 unavailable
+Lamport 19 | Agency 1 | REMOTE_TRANSFER_RECEIVED | Remote credit from agency 0 for account 4
+Lamport 20 | Agency 0 | DEPOSIT | Deposit completed, account=3
+Lamport 20 | Agency 1 | BALANCE_CHECKED | Balance checked for account 4
+Lamport 21 | Agency 0 | WITHDRAWAL | Withdrawal completed, account=3
+Lamport 22 | Agency 0 | LOCAL_TRANSFER | Local transfer from 3 to 6
+Lamport 23 | Agency 0 | REMOTE_TRANSFER_SENT | Remote transfer sent to agency 1
+Lamport 24 | Agency 0 | REMOTE_TRANSFER_FAILED | Inconsistency: debit committed and agency 2 unavailable
+Lamport 24 | Agency 1 | REMOTE_TRANSFER_RECEIVED | Remote credit from agency 0 for account 4
+Lamport 25 | Agency 1 | BALANCE_CHECKED | Balance checked for account 4

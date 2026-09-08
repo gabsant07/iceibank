@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ICEIBank</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+<main>
+    <header>
+        <h1>ICEIBank</h1>
+        <p>Cliente das agências distribuídas</p>
+    </header>
+
+    <section>
+        <h2>Acesso</h2>
+        <div class="grid">
+            <label>Agência
+                <select id="agency">
+                    <option value="http://localhost:8080">Agência 0</option>
+                    <option value="http://localhost:8081">Agência 1</option>
+                    <option value="http://localhost:8082">Agência 2</option>
+                </select>
+            </label>
+            <label>Usuário <input id="username" value="admin"></label>
+            <label>Senha <input id="password" type="password" value="admin123"></label>
+        </div>
+        <button id="login">Entrar e gerar JWT</button>
+    </section>
+
+    <section>
+        <h2>Conta</h2>
+        <div class="grid">
+            <label>Número <input id="accountNumber" type="number"></label>
+            <label>Titular <input id="holderName"></label>
+            <label>Valor <input id="amount" type="number" step="0.01"></label>
+        </div>
+        <div class="actions">
+            <button id="createAccount">Criar conta</button>
+            <button id="findAccount">Consultar</button>
+            <button id="deposit">Depositar</button>
+            <button id="withdraw">Sacar</button>
+            <button id="history">Histórico</button>
+        </div>
+    </section>
+
+    <section>
+        <h2>Transferência</h2>
+        <div class="grid">
+            <label>Conta de origem <input id="sourceAccount" type="number"></label>
+            <label>Conta de destino <input id="destinationAccount" type="number"></label>
+            <label>Valor <input id="transferAmount" type="number" step="0.01"></label>
+        </div>
+        <button id="transfer">Transferir</button>
+    </section>
+
+    <section>
+        <h2>Resultado</h2>
+        <pre id="result">Selecione uma operação.</pre>
+    </section>
+</main>
+<script src="/app.js"></script>
+</body>
+</html>

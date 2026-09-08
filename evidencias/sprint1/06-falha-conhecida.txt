@@ -1,0 +1,19 @@
+﻿ICEIBank - Sprint 1
+Known failure: debit retained when agency 2 is down
+Generated at: 2026-09-07T21:55:32Z
+
+{
+    "status":  502,
+    "latestSourceHistory":  {
+                                "id":  "2b4e95b5-cfab-4f6d-be70-2d1cb4c9e505",
+                                "type":  "REMOTE_TRANSFER_FAILED",
+                                "sourceAccount":  3,
+                                "destinationAccount":  5,
+                                "amount":  1.00,
+                                "status":  "INCONSISTENT",
+                                "agencyId":  0,
+                                "lamportTimestamp":  24,
+                                "createdAt":  "2026-09-07T21:55:32.759819Z",
+                                "message":  "Debit committed, but destination agency did not confirm the credit"
+                            }
+}

@@ -1,0 +1,20 @@
+﻿ICEIBank - Sprint 1
+Authenticated deposit and withdrawal
+Generated at: 2026-09-07T21:55:30Z
+
+{
+    "deposit":  {
+                    "accountNumber":  3,
+                    "holderName":  "Ana Souza",
+                    "balance":  1508.00,
+                    "agencyId":  0,
+                    "createdAt":  "2026-09-07T21:50:55.052539Z"
+                },
+    "withdrawal":  {
+                       "accountNumber":  3,
+                       "holderName":  "Ana Souza",
+                       "balance":  1503.00,
+                       "agencyId":  0,
+                       "createdAt":  "2026-09-07T21:50:55.052539Z"
+                   }
+}

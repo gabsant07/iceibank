@@ -1,0 +1,84 @@
+﻿ICEIBank - Sprint 1
+Three agencies and their account partitions
+Generated at: 2026-09-07T21:55:30Z
+
+{
+    "agency2":  {
+                    "value":  [
+                                  {
+                                      "accountNumber":  5,
+                                      "holderName":  "Elisa Martins",
+                                      "balance":  2000.00,
+                                      "agencyId":  2,
+                                      "createdAt":  "2026-09-07T21:50:55.123419Z"
+                                  },
+                                  {
+                                      "accountNumber":  8,
+                                      "holderName":  "Felipe Costa",
+                                      "balance":  450.00,
+                                      "agencyId":  2,
+                                      "createdAt":  "2026-09-07T21:50:55.123419Z"
+                                  }
+                              ],
+                    "Count":  2
+                },
+    "agency1":  {
+                    "value":  [
+                                  {
+                                      "accountNumber":  1,
+                                      "holderName":  "Pecanha",
+                                      "balance":  10.00,
+                                      "agencyId":  1,
+                                      "createdAt":  "2026-09-07T20:54:45.396598Z"
+                                  },
+                                  {
+                                      "accountNumber":  4,
+                                      "holderName":  "Julio",
+                                      "balance":  106.00,
+                                      "agencyId":  1,
+                                      "createdAt":  "2026-09-07T20:54:59.841553Z"
+                                  },
+                                  {
+                                      "accountNumber":  7,
+                                      "holderName":  "Felipe",
+                                      "balance":  599499.00,
+                                      "agencyId":  1,
+                                      "createdAt":  "2026-09-07T20:55:17.388693Z"
+                                  }
+                              ],
+                    "Count":  3
+                },
+    "agency0":  {
+                    "value":  [
+                                  {
+                                      "accountNumber":  3,
+                                      "holderName":  "Ana Souza",
+                                      "balance":  1498.00,
+                                      "agencyId":  0,
+                                      "createdAt":  "2026-09-07T21:50:55.052539Z"
+                                  },
+                                  {
+                                      "accountNumber":  6,
+                                      "holderName":  "Bruno Lima",
+                                      "balance":  804.00,
+                                      "agencyId":  0,
+                                      "createdAt":  "2026-09-07T21:50:55.052539Z"
+                                  },
+                                  {
+                                      "accountNumber":  9,
+                                      "holderName":  "Nogueira",
+                                      "balance":  1010.00,
+                                      "agencyId":  0,
+                                      "createdAt":  "2026-09-07T20:53:13.744898Z"
+                                  },
+                                  {
+                                      "accountNumber":  12,
+                                      "holderName":  "Gabriel",
+                                      "balance":  1022119930.00,
+                                      "agencyId":  0,
+                                      "createdAt":  "2026-09-07T20:52:45.060426Z"
+                                  }
+                              ],
+                    "Count":  4
+                }
+}

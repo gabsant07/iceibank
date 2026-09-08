@@ -1,0 +1,11 @@
+target/
+.idea/
+.vscode/
+*.iml
+data/*.mv.db
+data/*.trace.db
+data/eventos-agencia-*.jsonl
+.runtime/
+evidencias/sprint1/*.txt
+.mvn/apache-maven-*/
+.mvn/apache-maven-*-bin.zip

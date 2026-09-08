@@ -1,0 +1,25 @@
+﻿ICEIBank - Sprint 1
+Remote transfer from agency 0 to agency 1
+Generated at: 2026-09-07T21:55:30Z
+
+{
+    "transfer":  {
+                     "id":  "8fafc1cc-a710-4b3f-b1a3-63e0d0dca7fe",
+                     "type":  "REMOTE_TRANSFER_SENT",
+                     "sourceAccount":  3,
+                     "destinationAccount":  4,
+                     "amount":  3,
+                     "status":  "COMPLETED",
+                     "agencyId":  0,
+                     "lamportTimestamp":  23,
+                     "createdAt":  "2026-09-07T21:55:30.617862700Z",
+                     "message":  "Remote transfer completed"
+                 },
+    "destination":  {
+                        "accountNumber":  4,
+                        "holderName":  "Julio",
+                        "balance":  109.00,
+                        "agencyId":  1,
+                        "createdAt":  "2026-09-07T20:54:59.841553Z"
+                    }
+}

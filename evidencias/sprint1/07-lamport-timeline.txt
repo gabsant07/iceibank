@@ -1,0 +1,270 @@
+﻿ICEIBank - Sprint 1
+Unified Lamport timeline
+Generated at: 2026-09-07T21:55:41Z
+
+[
+    {
+        "id":  "50267907-a49e-4149-b66a-55062a3fe218",
+        "agencyId":  0,
+        "type":  "ACCOUNT_CREATED",
+        "lamportTimestamp":  1,
+        "wallClock":  "2026-09-07T20:52:45.078893100Z",
+        "details":  "Account created, account=12"
+    },
+    {
+        "id":  "6627eac4-c90a-45a8-adcf-6527c2b06396",
+        "agencyId":  1,
+        "type":  "ACCOUNT_CREATED",
+        "lamportTimestamp":  1,
+        "wallClock":  "2026-09-07T20:54:45.413247800Z",
+        "details":  "Account created, account=1"
+    },
+    {
+        "id":  "f530cbea-8f38-4b61-9f6f-35745644452d",
+        "agencyId":  0,
+        "type":  "ACCOUNT_CREATED",
+        "lamportTimestamp":  2,
+        "wallClock":  "2026-09-07T20:53:13.745900100Z",
+        "details":  "Account created, account=9"
+    },
+    {
+        "id":  "1d21432c-38b7-4f16-a9f7-fa7625b72ee5",
+        "agencyId":  1,
+        "type":  "ACCOUNT_CREATED",
+        "lamportTimestamp":  2,
+        "wallClock":  "2026-09-07T20:54:59.841552800Z",
+        "details":  "Account created, account=4"
+    },
+    {
+        "id":  "100510d2-3445-41e1-ad84-e8577e5d5ca4",
+        "agencyId":  0,
+        "type":  "LOCAL_TRANSFER",
+        "lamportTimestamp":  3,
+        "wallClock":  "2026-09-07T20:53:32.123723800Z",
+        "details":  "Local transfer from 12 to 9"
+    },
+    {
+        "id":  "75ed6198-b264-46b2-91bf-d7bcbbba60dd",
+        "agencyId":  1,
+        "type":  "ACCOUNT_CREATED",
+        "lamportTimestamp":  3,
+        "wallClock":  "2026-09-07T20:55:17.388693400Z",
+        "details":  "Account created, account=7"
+    },
+    {
+        "id":  "091717c0-3efa-4532-bd66-b6ac8859c2d5",
+        "agencyId":  1,
+        "type":  "REMOTE_TRANSFER_SENT",
+        "lamportTimestamp":  4,
+        "wallClock":  "2026-09-07T20:55:57.821932500Z",
+        "details":  "Remote transfer sent to agency 0"
+    },
+    {
+        "id":  "f3531b48-861e-489a-ad0b-59aa1b517c83",
+        "agencyId":  0,
+        "type":  "REMOTE_TRANSFER_RECEIVED",
+        "lamportTimestamp":  5,
+        "wallClock":  "2026-09-07T20:55:57.797389900Z",
+        "details":  "Remote credit from agency 1 for account 12"
+    },
+    {
+        "id":  "2a98316a-1bdd-4f21-a45f-6f46ec9376d5",
+        "agencyId":  0,
+        "type":  "DEPOSIT",
+        "lamportTimestamp":  6,
+        "wallClock":  "2026-09-07T20:56:36.028927700Z",
+        "details":  "Deposit completed, account=12"
+    },
+    {
+        "id":  "1bca6dea-5673-4033-838c-300b49eaf0e0",
+        "agencyId":  0,
+        "type":  "DEPOSIT",
+        "lamportTimestamp":  7,
+        "wallClock":  "2026-09-07T20:56:39.254989Z",
+        "details":  "Deposit completed, account=12"
+    },
+    {
+        "id":  "a2d7422d-afc8-48d9-983d-293bf4d310a1",
+        "agencyId":  0,
+        "type":  "DEPOSIT",
+        "lamportTimestamp":  8,
+        "wallClock":  "2026-09-07T20:56:39.935956800Z",
+        "details":  "Deposit completed, account=12"
+    },
+    {
+        "id":  "18829585-f4e8-4fa1-80c7-6a580d8e22a6",
+        "agencyId":  0,
+        "type":  "DEPOSIT",
+        "lamportTimestamp":  9,
+        "wallClock":  "2026-09-07T20:56:40.050599500Z",
+        "details":  "Deposit completed, account=12"
+    },
+    {
+        "id":  "b307625f-0dd9-4eb1-8631-9210600178b4",
+        "agencyId":  0,
+        "type":  "DEPOSIT",
+        "lamportTimestamp":  10,
+        "wallClock":  "2026-09-07T21:50:58.682250Z",
+        "details":  "Deposit completed, account=3"
+    },
+    {
+        "id":  "5294b8bd-941b-4118-afab-010de4a636f4",
+        "agencyId":  0,
+        "type":  "WITHDRAWAL",
+        "lamportTimestamp":  11,
+        "wallClock":  "2026-09-07T21:50:58.702510300Z",
+        "details":  "Withdrawal completed, account=3"
+    },
+    {
+        "id":  "e6c069c9-8811-4fa3-a0fc-4c42c78baa31",
+        "agencyId":  0,
+        "type":  "LOCAL_TRANSFER",
+        "lamportTimestamp":  12,
+        "wallClock":  "2026-09-07T21:50:58.721038600Z",
+        "details":  "Local transfer from 3 to 6"
+    },
+    {
+        "id":  "4d8bfd2f-74db-4c04-be33-718610cdf6a1",
+        "agencyId":  0,
+        "type":  "REMOTE_TRANSFER_SENT",
+        "lamportTimestamp":  13,
+        "wallClock":  "2026-09-07T21:50:59.028273500Z",
+        "details":  "Remote transfer sent to agency 1"
+    },
+    {
+        "id":  "5bba8124-f326-4dfd-b8b4-17346f44f49f",
+        "agencyId":  0,
+        "type":  "REMOTE_TRANSFER_FAILED",
+        "lamportTimestamp":  14,
+        "wallClock":  "2026-09-07T21:51:01.198805700Z",
+        "details":  "Inconsistency: debit committed and agency 2 unavailable"
+    },
+    {
+        "id":  "8dc2e41b-2b0d-48af-90f4-1d4a88f13707",
+        "agencyId":  1,
+        "type":  "REMOTE_TRANSFER_RECEIVED",
+        "lamportTimestamp":  14,
+        "wallClock":  "2026-09-07T21:50:58.992696500Z",
+        "details":  "Remote credit from agency 0 for account 4"
+    },
+    {
+        "id":  "f2ec031b-a131-4d18-9563-b003f7334448",
+        "agencyId":  0,
+        "type":  "DEPOSIT",
+        "lamportTimestamp":  15,
+        "wallClock":  "2026-09-07T21:51:39.256554200Z",
+        "details":  "Deposit completed, account=3"
+    },
+    {
+        "id":  "fb391cab-f55d-42f0-9067-5d20e78e0eec",
+        "agencyId":  1,
+        "type":  "BALANCE_CHECKED",
+        "lamportTimestamp":  15,
+        "wallClock":  "2026-09-07T21:50:59.038454300Z",
+        "details":  "Balance checked for account 4"
+    },
+    {
+        "id":  "2aff177d-974f-4227-88b4-a638041f4550",
+        "agencyId":  0,
+        "type":  "WITHDRAWAL",
+        "lamportTimestamp":  16,
+        "wallClock":  "2026-09-07T21:51:39.266563300Z",
+        "details":  "Withdrawal completed, account=3"
+    },
+    {
+        "id":  "d24175e2-3b4e-4cd0-a78e-161fe0964e1b",
+        "agencyId":  0,
+        "type":  "LOCAL_TRANSFER",
+        "lamportTimestamp":  17,
+        "wallClock":  "2026-09-07T21:51:39.279089400Z",
+        "details":  "Local transfer from 3 to 6"
+    },
+    {
+        "id":  "bc4d8cda-c2d4-4409-adfd-7918989c9360",
+        "agencyId":  0,
+        "type":  "REMOTE_TRANSFER_SENT",
+        "lamportTimestamp":  18,
+        "wallClock":  "2026-09-07T21:51:39.305529600Z",
+        "details":  "Remote transfer sent to agency 1"
+    },
+    {
+        "id":  "f246947d-f00b-459d-a016-1be1995541c7",
+        "agencyId":  0,
+        "type":  "REMOTE_TRANSFER_FAILED",
+        "lamportTimestamp":  19,
+        "wallClock":  "2026-09-07T21:51:41.445340100Z",
+        "details":  "Inconsistency: debit committed and agency 2 unavailable"
+    },
+    {
+        "id":  "d6647a03-fa49-4f00-8d52-da14219bca4a",
+        "agencyId":  1,
+        "type":  "REMOTE_TRANSFER_RECEIVED",
+        "lamportTimestamp":  19,
+        "wallClock":  "2026-09-07T21:51:39.299019300Z",
+        "details":  "Remote credit from agency 0 for account 4"
+    },
+    {
+        "id":  "1fc8d684-2ae3-4ab1-be87-24bd6f5d85d6",
+        "agencyId":  0,
+        "type":  "DEPOSIT",
+        "lamportTimestamp":  20,
+        "wallClock":  "2026-09-07T21:55:30.225286500Z",
+        "details":  "Deposit completed, account=3"
+    },
+    {
+        "id":  "58f0a070-bc46-4f80-9a08-60c81b034ead",
+        "agencyId":  1,
+        "type":  "BALANCE_CHECKED",
+        "lamportTimestamp":  20,
+        "wallClock":  "2026-09-07T21:51:39.314541300Z",
+        "details":  "Balance checked for account 4"
+    },
+    {
+        "id":  "5d1009fa-a6a8-48bb-9ee5-cadd98f33571",
+        "agencyId":  0,
+        "type":  "WITHDRAWAL",
+        "lamportTimestamp":  21,
+        "wallClock":  "2026-09-07T21:55:30.261160500Z",
+        "details":  "Withdrawal completed, account=3"
+    },
+    {
+        "id":  "8971fdba-dd04-4e2e-bf81-27abc144f60e",
+        "agencyId":  0,
+        "type":  "LOCAL_TRANSFER",
+        "lamportTimestamp":  22,
+        "wallClock":  "2026-09-07T21:55:30.284712600Z",
+        "details":  "Local transfer from 3 to 6"
+    },
+    {
+        "id":  "d3254fbf-22a6-44ca-b545-08dd7fcf7542",
+        "agencyId":  0,
+        "type":  "REMOTE_TRANSFER_SENT",
+        "lamportTimestamp":  23,
+        "wallClock":  "2026-09-07T21:55:30.619863900Z",
+        "details":  "Remote transfer sent to agency 1"
+    },
+    {
+        "id":  "c267c9d6-732d-4517-bc7d-41bf6dcc85dd",
+        "agencyId":  0,
+        "type":  "REMOTE_TRANSFER_FAILED",
+        "lamportTimestamp":  24,
+        "wallClock":  "2026-09-07T21:55:32.761818700Z",
+        "details":  "Inconsistency: debit committed and agency 2 unavailable"
+    },
+    {
+        "id":  "443f4e23-4097-4d7d-aff0-f37f47d85f9b",
+        "agencyId":  1,
+        "type":  "REMOTE_TRANSFER_RECEIVED",
+        "lamportTimestamp":  24,
+        "wallClock":  "2026-09-07T21:55:30.581177800Z",
+        "details":  "Remote credit from agency 0 for account 4"
+    },
+    {
+        "id":  "b79cacd3-b6b0-4ae9-a1cc-dd15f7ab728f",
+        "agencyId":  1,
+        "type":  "BALANCE_CHECKED",
+        "lamportTimestamp":  25,
+        "wallClock":  "2026-09-07T21:55:30.629908300Z",
+        "details":  "Balance checked for account 4"
+    }
+]

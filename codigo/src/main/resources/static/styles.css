@@ -1,0 +1,17 @@
+:root {
+    font-family: Inter, system-ui, sans-serif;
+    color: #17243a;
+    background: #eef2f7;
+}
+
+body { margin: 0; }
+main { max-width: 960px; margin: 32px auto; padding: 0 20px 40px; }
+header { margin-bottom: 24px; }
+h1 { color: #123b72; margin-bottom: 4px; }
+section { background: white; padding: 20px; margin: 16px 0; border-radius: 12px; box-shadow: 0 4px 18px #17365d14; }
+.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 12px; }
+label { display: flex; flex-direction: column; gap: 6px; font-weight: 600; }
+input, select { padding: 10px; border: 1px solid #b7c2d0; border-radius: 7px; }
+button { background: #1557a0; color: white; border: 0; padding: 10px 14px; border-radius: 7px; cursor: pointer; margin-top: 12px; }
+.actions { display: flex; flex-wrap: wrap; gap: 8px; }
+pre { background: #142033; color: #d9e8ff; padding: 16px; border-radius: 8px; overflow: auto; min-height: 90px; }

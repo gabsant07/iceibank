@@ -1,0 +1,12 @@
+package aula.iceibank.entity;
+
+public enum TransactionType {
+    ACCOUNT_CREATED,
+    BALANCE_CHECKED,
+    DEPOSIT,
+    WITHDRAWAL,
+    LOCAL_TRANSFER,
+    REMOTE_TRANSFER_SENT,
+    REMOTE_TRANSFER_RECEIVED,
+    REMOTE_TRANSFER_FAILED
+}
